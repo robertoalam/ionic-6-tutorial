@@ -42,6 +42,10 @@ const routes: Routes = [
     path: 'toggle',
     loadChildren: () => import('./pages/componentes/toggle/toggle.module').then( m => m.TogglePageModule)
   },
+  {
+    path: 'radio',
+    loadChildren: () => import('./pages/componentes/radio/radio.module').then( m => m.RadioPageModule)
+  },
 ];
 
 @NgModule({

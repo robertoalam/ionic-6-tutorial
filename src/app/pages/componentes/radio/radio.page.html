@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-icon name="arrow-back" size="large" slot="start" (click)="voltar()"></ion-icon>
+    <ion-title>{{title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-radio-group radio-group >
+    <ion-row>
+      <ion-col size="6" *ngFor="let o of ['internet','radio','jornal','televisão']">
+        <ion-item>
+          <ion-radio [value]="o" slot="end"></ion-radio>
+          <ion-label>{{o}}</ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-radio-group>
+
+</ion-content>
