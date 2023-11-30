@@ -38,6 +38,10 @@ const routes: Routes = [
     path: 'popover',
     loadChildren: () => import('./pages/componentes/popover/popover.module').then( m => m.PopoverPageModule)
   },
+  {
+    path: 'toggle',
+    loadChildren: () => import('./pages/componentes/toggle/toggle.module').then( m => m.TogglePageModule)
+  },
 ];
 
 @NgModule({

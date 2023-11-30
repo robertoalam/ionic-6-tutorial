@@ -2,13 +2,13 @@ import { Component } from '@angular/core';
 import { NavController } from '@ionic/angular';
 
 @Component({
-  selector: 'app-popover',
-  templateUrl: './popover.page.html',
-  styleUrls: ['./popover.page.scss'],
+  selector: 'app-toggle',
+  templateUrl: './toggle.page.html',
+  styleUrls: ['./toggle.page.scss'],
 })
-export class PopoverPage  {
+export class TogglePage  {
 
-  title : string = "Popover";
+  title : string = "Toggle";
   
   constructor(
     public navCtrl:NavController,

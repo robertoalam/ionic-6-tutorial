@@ -15,7 +15,9 @@ export class HomePage implements OnInit {
     {title:'Loading',icone:'checkmark-sharp',rota:'/loading'},
     {title:'Modal',icone:'copy-sharp',rota:'/modal'},
     {title:'Popover',icone:'copy-sharp',rota:'/popover'},
+    {title:'Radio',icone:'disc-sharp',rota:'/popover'},
     {title:'Toast',icone:'notifications-sharp',rota:'/toast'},
+    {title:'Toggle',icone:'flag-sharp',rota:'/toggle'},
   ];
   constructor() { }
 
