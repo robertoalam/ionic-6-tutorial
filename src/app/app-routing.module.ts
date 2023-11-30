@@ -27,6 +27,12 @@ const routes: Routes = [
   },{
     path: 'toast',
     loadChildren: () => import('./pages/componentes/toast/toast.module').then( m => m.ToastPageModule)
+  },{
+    path: 'datetime',
+    loadChildren: () => import('./pages/componentes/datetime/datetime.module').then( m => m.DatetimePageModule)
+  },{
+    path: 'datetime-button',
+    loadChildren: () => import('./pages/componentes/datetime-button/datetime-button.module').then( m => m.DatetimeButtonPageModule)
   },
 ];
 

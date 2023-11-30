@@ -9,7 +9,8 @@ export class HomePage implements OnInit {
   paginas:any = [
     {title:'Alert',icone:'checkmark-sharp',rota:'/alert'},
     {title:'Button',icone:'checkmark-sharp',rota:'/button'},
-    {title:'Datetime',icone:'close-sharp',rota:'/datetime'},
+    {title:'Datetime',icone:'calendar-sharp',rota:'/datetime'},
+    {title:'Datetime Button',icone:'calendar-clear-sharp',rota:'/datetime-button'},
     {title:'Input',icone:'checkmark-sharp',rota:'/input'},
     {title:'Loading',icone:'checkmark-sharp',rota:'/loading'},
     {title:'Modal',icone:'checkmark-sharp',rota:'/modal'},
