@@ -1,0 +1,64 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-icon name="arrow-back" size="large" slot="start" (click)="voltar()"></ion-icon>
+    <ion-title>{{title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h3>Basicos</h3>
+  <ion-list>
+    <ion-item>
+      <ion-label>Default</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Placeholder</ion-label>
+      <ion-input placeholder="Digite seu nome"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Valorado</ion-label>
+      <ion-input value="praça josé bonifácio"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Readonly</ion-label>
+      <ion-input value="Procergs" [readonly]="true"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Disabled</ion-label>
+      <ion-input value="53703" [disabled]="true"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <h3>Tipos</h3>
+  <ion-list>
+    <ion-item>
+      <ion-label>Texto</ion-label>
+      <ion-input placeholder="Enter texto"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Number</ion-label>
+      <ion-input type="number" placeholder="000"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Password</ion-label>
+      <ion-input type="password" value="password"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Email</ion-label>
+      <ion-input type="email" placeholder="email@domain.com"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Telefone</ion-label>
+      <ion-input type="tel" placeholder="888-888-8888"></ion-input>
+    </ion-item>
+  </ion-list>  
+</ion-content>
