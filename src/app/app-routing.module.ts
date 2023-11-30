@@ -18,6 +18,9 @@ const routes: Routes = [
   },{
     path: 'input',
     loadChildren: () => import('./pages/componentes/input/input.module').then( m => m.InputPageModule)
+  },{
+    path: 'loading',
+    loadChildren: () => import('./pages/componentes/loading/loading.module').then( m => m.LoadingPageModule)
   },
 ];
 
