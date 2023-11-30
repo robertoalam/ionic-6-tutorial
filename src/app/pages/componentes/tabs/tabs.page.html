@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-icon name="arrow-back" size="large" slot="start" (click)="voltar()"></ion-icon>
+    <ion-title>{{title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="aviao">
+        <ion-icon name="airplane-sharp"></ion-icon>
+        Aviao
+      </ion-tab-button>
+      <ion-tab-button tab="barco">
+        <ion-icon name="boat-sharp"></ion-icon>
+        Barco
+      </ion-tab-button>
+      <ion-tab-button tab="carro">
+        <ion-icon name="car-sharp"></ion-icon>
+        Carro
+      </ion-tab-button>
+      <ion-tab-button tab="trem">
+        <ion-icon name="train-sharp"></ion-icon>
+        Trem
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>

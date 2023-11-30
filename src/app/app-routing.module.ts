@@ -33,22 +33,21 @@ const routes: Routes = [
   },{
     path: 'datetime-button',
     loadChildren: () => import('./pages/componentes/datetime-button/datetime-button.module').then( m => m.DatetimeButtonPageModule)
-  },
-  {
+  },{
     path: 'popover',
     loadChildren: () => import('./pages/componentes/popover/popover.module').then( m => m.PopoverPageModule)
-  },
-  {
+  },{
     path: 'toggle',
     loadChildren: () => import('./pages/componentes/toggle/toggle.module').then( m => m.TogglePageModule)
-  },
-  {
+  },{
     path: 'radio',
     loadChildren: () => import('./pages/componentes/radio/radio.module').then( m => m.RadioPageModule)
-  },
-  {
+  },{
     path: 'select',
     loadChildren: () => import('./pages/componentes/select/select.module').then( m => m.SelectPageModule)
+  },{
+    path: 'tabs',
+    loadChildren: () => import('./pages/componentes/tabs/tabs.module').then( m => m.TabsPageModule)
   },
 ];
 
