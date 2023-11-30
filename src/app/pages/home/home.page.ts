@@ -16,6 +16,7 @@ export class HomePage implements OnInit {
     {title:'Modal',icone:'copy-sharp',rota:'/modal'},
     {title:'Popover',icone:'copy-sharp',rota:'/popover'},
     {title:'Radio',icone:'disc-sharp',rota:'/radio'},
+    {title:'Select',icone:'pricetags-sharp',rota:'/select'},
     {title:'Toast',icone:'notifications-sharp',rota:'/toast'},
     {title:'Toggle',icone:'flag-sharp',rota:'/toggle'},
   ];

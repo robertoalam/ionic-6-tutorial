@@ -46,6 +46,10 @@ const routes: Routes = [
     path: 'radio',
     loadChildren: () => import('./pages/componentes/radio/radio.module').then( m => m.RadioPageModule)
   },
+  {
+    path: 'select',
+    loadChildren: () => import('./pages/componentes/select/select.module').then( m => m.SelectPageModule)
+  },
 ];
 
 @NgModule({
