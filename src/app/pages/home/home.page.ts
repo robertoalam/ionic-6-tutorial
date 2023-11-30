@@ -13,7 +13,7 @@ export class HomePage implements OnInit {
     {title:'Input',icone:'checkmark-sharp',rota:'/input'},
     {title:'Loading',icone:'checkmark-sharp',rota:'/loading'},
     {title:'Modal',icone:'checkmark-sharp',rota:'/modal'},
-    {title:'Toast',icone:'close-sharp',rota:'/toast'},
+    {title:'Toast',icone:'checkmark-sharp',rota:'/toast'},
   ];
   constructor() { }
 

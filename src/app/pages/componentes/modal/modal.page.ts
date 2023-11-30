@@ -9,7 +9,7 @@ import { OverlayEventDetail } from '@ionic/core/components';
 })
 export class ModalPage {
 
-  title : string = "Loading";
+  title : string = "Modal";
   @ViewChild(IonModal) modal!: IonModal;
   
   constructor(

@@ -24,6 +24,9 @@ const routes: Routes = [
   },{
     path: 'modal',
     loadChildren: () => import('./pages/componentes/modal/modal.module').then( m => m.ModalPageModule)
+  },{
+    path: 'toast',
+    loadChildren: () => import('./pages/componentes/toast/toast.module').then( m => m.ToastPageModule)
   },
 ];
 

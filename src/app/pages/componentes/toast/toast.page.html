@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-icon name="arrow-back" size="large" slot="start" (click)="voltar()"></ion-icon>
+    <ion-title>{{title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-button id="open-toast" expand="block">INLINE</ion-button>
+  <p id="message">Exemplo que utiliza gatilhos no próprio componente.</p>
+  <ion-toast trigger="open-toast" message="This toast will disappear after 5 seconds" [duration]="5000"></ion-toast>
+
+  <ion-button expand="block" (click)="presentToast('top')">ABRINTO TOAST TOPO</ion-button>
+  <ion-button expand="block" (click)="presentToast('middle')">ABRINTO TOAST CENTRO</ion-button>
+  <ion-button expand="block" (click)="presentToast('bottom')">ABRINTO TOAST EMBAIXO</ion-button>
+
+</ion-content>
