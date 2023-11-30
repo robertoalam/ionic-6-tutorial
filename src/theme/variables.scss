@@ -84,3 +84,7 @@ html {
    */
   --ion-dynamic-font: var(--ion-default-dynamic-font);
 }
+
+ion-toolbar > ion-icon{
+  padding-left: 15px
+}
