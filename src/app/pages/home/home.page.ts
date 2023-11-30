@@ -7,14 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePage implements OnInit {
   paginas:any = [
-    {title:'Alert',icone:'checkmark-sharp',rota:'/alert'},
-    {title:'Button',icone:'checkmark-sharp',rota:'/button'},
+    {title:'Alert',icone:'megaphone-sharp',rota:'/alert'},
+    {title:'Button',icone:'push-sharp',rota:'/button'},
     {title:'Datetime',icone:'calendar-sharp',rota:'/datetime'},
     {title:'Datetime Button',icone:'calendar-clear-sharp',rota:'/datetime-button'},
-    {title:'Input',icone:'checkmark-sharp',rota:'/input'},
+    {title:'Input',icone:'create-sharp',rota:'/input'},
     {title:'Loading',icone:'checkmark-sharp',rota:'/loading'},
-    {title:'Modal',icone:'checkmark-sharp',rota:'/modal'},
-    {title:'Toast',icone:'checkmark-sharp',rota:'/toast'},
+    {title:'Modal',icone:'copy-sharp',rota:'/modal'},
+    {title:'Popover',icone:'copy-sharp',rota:'/popover'},
+    {title:'Toast',icone:'notifications-sharp',rota:'/toast'},
   ];
   constructor() { }
 

@@ -34,6 +34,10 @@ const routes: Routes = [
     path: 'datetime-button',
     loadChildren: () => import('./pages/componentes/datetime-button/datetime-button.module').then( m => m.DatetimeButtonPageModule)
   },
+  {
+    path: 'popover',
+    loadChildren: () => import('./pages/componentes/popover/popover.module').then( m => m.PopoverPageModule)
+  },
 ];
 
 @NgModule({
