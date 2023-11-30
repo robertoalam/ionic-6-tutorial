@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-icon name="arrow-back" size="large" slot="start" (click)="voltar()"></ion-icon>
+    <ion-title>{{title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-button id="present-alert" expand="block" size="large">alert button</ion-button>
+  <ion-alert
+    trigger="present-alert"
+    header="A Short Title Is Best"
+    subHeader="A Sub Header Is Optional"
+    message="A message should be a short, complete sentence."
+    [buttons]="alertButtons"
+  ></ion-alert>
+
+
+  <ion-button (click)="alertController()" expand="block" size="large">alert controller</ion-button>
+</ion-content>

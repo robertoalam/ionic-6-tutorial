@@ -1,16 +1,21 @@
 
 <ion-content [fullscreen]="true">
-  <ion-grid *ngFor="let pagina of paginas" routerLink="{{pagina.rota}}">
-    <ion-row>
-      <ion-col size="2">
-        <ion-icon size="large" name="{{pagina.icone}}"></ion-icon>
-      </ion-col>
-      <ion-col size="8">
-        <label>{{pagina.title}}</label>
-      </ion-col>
-      <ion-col size="2">
-        <ion-icon size="large" name="chevron-forward-outline"></ion-icon>
-      </ion-col>      
-    </ion-row>
-  </ion-grid>
+  <ion-list>
+    <ion-item *ngFor="let pagina of paginas" routerLink="{{pagina.rota}}">
+      <ion-grid>
+
+        <ion-row>
+          <ion-col size="2">
+            <ion-icon size="large" name="{{pagina.icone}}"></ion-icon>
+          </ion-col>
+          <ion-col size="8">
+            <label>{{pagina.title}}</label>
+          </ion-col>
+          <ion-col size="2">
+            <ion-icon size="large" name="chevron-forward-outline"></ion-icon>
+          </ion-col>      
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+  </ion-list>
 </ion-content>
