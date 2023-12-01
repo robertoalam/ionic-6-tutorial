@@ -51,6 +51,9 @@ const routes: Routes = [
   },{
     path: 'icones',
     loadChildren: () => import('./pages/componentes/icones/icones.module').then( m => m.IconesPageModule)
+  },{
+    path: 'card',
+    loadChildren: () => import('./pages/componentes/card/card.module').then( m => m.CardPageModule)
   },
 ];
 
