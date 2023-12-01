@@ -48,6 +48,9 @@ const routes: Routes = [
   },{
     path: 'tabs',
     loadChildren: () => import('./pages/componentes/tabs/tabs.module').then( m => m.TabsPageModule)
+  },{
+    path: 'icones',
+    loadChildren: () => import('./pages/componentes/icones/icones.module').then( m => m.IconesPageModule)
   },
 ];
 
